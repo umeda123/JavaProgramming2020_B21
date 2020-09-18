@@ -1,6 +1,6 @@
 package day02_FirstJavaProgramming;
 
-public class PrintExersice {
+public class PrintExercise {
 
     public static void main(String[] args) {
 
