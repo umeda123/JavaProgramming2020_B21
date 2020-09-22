@@ -4,8 +4,8 @@ public class KgToPounds {
 
     public static void main(String[] args) {
 
-        // kg: 68
-        int kg = 100;
+        // kg: 68.5
+        double kg = 68.5;
         double pounds = kg * 2.2;
 
         System.out.println("Pounds: ");
