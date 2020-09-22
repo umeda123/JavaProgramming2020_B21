@@ -13,9 +13,6 @@ public class StringVariables {
         System.out.println(lastName);
         System.out.println(fullName);
 
-
-
-
     }
 
 }
