@@ -15,6 +15,7 @@ public class SalaryCalculator {
         System.out.println(totalTax);
 
         System.out.println("Your salary after tax will be: ");
+        System.out.print("$ ");
         System.out.println( salaryAfterTax );
 
 
