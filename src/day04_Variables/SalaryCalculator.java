@@ -5,8 +5,8 @@ public class SalaryCalculator {
     public static void main(String[] args) {
         // salary: 150000,  taxRate: 0.28
 
-        int salary = 150000;
-        double taxRate = 0.28;
+        int salary = 150000; // whole numbers
+        double taxRate = 0.28; // decimal
 
         double totalTax = salary * taxRate;
         double salaryAfterTax = salary - totalTax;
