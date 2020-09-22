@@ -22,6 +22,10 @@ public class CharVariables {
 
         char yesNo = 'Y';
 
+        System.out.println( '#');
+
+        char char1 = 15000;
+        System.out.println(char1);
 
     }
 
