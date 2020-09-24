@@ -20,10 +20,11 @@ public class Concatenation_Practice {
         String model = "Camry";
         int year = 2010;
         int mileage = 55000;
-        double price = 18000;
+        double price = 22000;
         String color = "Red";
 
         // 2010 Toyota Camry, 55000 miles, Red, $18000
+        String carInfo =
 
 
 
