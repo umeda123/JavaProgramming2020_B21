@@ -7,7 +7,6 @@ public class EmployeeInfo {
         String firstName = "Yasin"; //"" for the texts
         String lastName = "Seyhan";
         String fullName =   firstName+" "+lastName; // string ==> text
-
         char gender = 'M'; // '' for single character
         int age = 30;
         String companyName = "Bank Of America";
