@@ -26,7 +26,7 @@ public class Concatenation_Practice {
         // 2010 Toyota Camry, 55000 miles, Red, $18000
         String carInfo = year+" "+brand+" "+model+", "+mileage+" miles, "+color+", $"+price; // concatenation
 
-        System.out.println(carInfo);
+        System.out.println( carInfo );
 
 
     }
