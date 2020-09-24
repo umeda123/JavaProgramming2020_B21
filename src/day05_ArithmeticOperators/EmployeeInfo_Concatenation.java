@@ -14,6 +14,12 @@ public class EmployeeInfo_Concatenation {
         boolean isFullTime = false;
         boolean isMarried = true;
 
+        System.out.println("Employee's full name is: "+fullName);
+        System.out.println(fullName +"'s gender is: "+gender );
+        System.out.println(fullName+"'s age is: "+age+" years old");
+        System.out.println(fullName+" works at: "  + companyName  );
+        System.out.println(fullName+"'s job title is: "+jobTitle );
+        System.out.println( fullName+ "'s salary is: $ "  +  salary);
 
 
     }
@@ -21,9 +27,7 @@ public class EmployeeInfo_Concatenation {
 
 }
 
-
 /*
-
      output:
                 Employee' full name is: John Daniel
                 John Daniel' gender is: M
