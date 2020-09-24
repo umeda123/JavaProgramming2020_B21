@@ -22,23 +22,7 @@ public class EmployeeInfo_Concatenation {
 }
 
 
-
-
 /*
-        declare the following variables:
-            firstName, lastName, gender, age, companyName, jobTitle, isFullTime, isMarried, salary
-
-    write a program that can display the full info of the employee
-            ex:
-                     firstName = John
-                     lastName = Daniel
-                     gender = M
-                     age = 35
-                     companyName = CapitalOne
-                     jobTitle = SDET
-                     isFullTime = true
-                     isMarried = false
-                     salary = 120000.50
 
      output:
                 Employee' full name is: John Daniel
