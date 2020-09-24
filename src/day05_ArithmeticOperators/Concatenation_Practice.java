@@ -16,16 +16,17 @@ public class Concatenation_Practice {
 
         System.out.println("=============================================");
 
-        String brand = "Toyota";
-        String model = "Camry";
-        int year = 2010;
-        int mileage = 55000;
-        double price = 22000;
+        String brand = "BMW";
+        String model = "X7";
+        int year = 2012;
+        short mileage = 20000;
+        double price = 45000;
         String color = "Red";
 
         // 2010 Toyota Camry, 55000 miles, Red, $18000
-        String carInfo =
+        String carInfo = year+" "+brand+" "+model+", "+mileage+" miles, "+color+", $"+price; // concatenation
 
+        System.out.println(carInfo);
 
 
     }
