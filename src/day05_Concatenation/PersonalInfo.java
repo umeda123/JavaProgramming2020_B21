@@ -1,4 +1,4 @@
-package day05_ArithmeticOperators;
+package day05_Concatenation;
 
 public class PersonalInfo {
 
