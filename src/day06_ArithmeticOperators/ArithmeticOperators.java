@@ -50,6 +50,17 @@ public class ArithmeticOperators {
 
         System.out.println(z);
 
+        System.out.println("==============================================");
+
+        System.out.println(100%13);
+        System.out.println(100%10);
+
+        System.out.println( 20%4.5);
+
+
+
+
+
 
     }
 
