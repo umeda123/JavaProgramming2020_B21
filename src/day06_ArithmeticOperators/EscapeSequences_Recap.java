@@ -13,6 +13,10 @@ public class EscapeSequences_Recap {
         System.out.println("=============================================================");
         System.out.println("\\");
 
+        System.out.println("=============================================================");
+
+        System.out.println("Hi Cybertek\n\tToday is a great day!\nI am happy to be part of \"Bacth 21\".");
+
     }
 
 }
@@ -35,4 +39,11 @@ public class EscapeSequences_Recap {
 
 
                     \
+
+        "Hi Cybertek\n\tToday is a great day!\nI am happy to be part of \"Bacth 21\"."
+
+        Hi Cybertek
+            Today is great day!
+        I am happy to be part of "Bacth 21"/
+
  */
