@@ -9,9 +9,10 @@ public class SalaryCalculator {
                 totalTax = stateTax +federalTax, salaryAfterTax = salary - totalTax ;
         */
 
-        double salary = 120000;
-        double stateTaxRate = 0;
-        double federalTaxRate = 0.23;
+        double salary = 150000;
+        double stateTaxRate = 0.09;
+        double federalTaxRate = 0.25;
+
 
         double stateTax =  salary *  stateTaxRate ;
         double federalTax = salary * federalTaxRate;
