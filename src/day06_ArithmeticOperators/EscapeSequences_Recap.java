@@ -8,6 +8,10 @@ public class EscapeSequences_Recap {
 
         System.out.println("============================================================");
 
+        System.out.println("My favorite quote is:\n\t\"Winter is Coming\"\n\t\t\t\t- Ned Stark");
+
+        System.out.println("=============================================================");
+        System.out.println("\\");
 
     }
 
@@ -28,4 +32,7 @@ public class EscapeSequences_Recap {
     My favorite quote is:
         "YourFavoriteQuote"
                     - Name
+
+
+                    \
  */
