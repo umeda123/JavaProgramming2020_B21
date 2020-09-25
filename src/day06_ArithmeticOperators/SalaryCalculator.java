@@ -13,7 +13,6 @@ public class SalaryCalculator {
         double stateTaxRate = 0.09;
         double federalTaxRate = 0.25;
 
-
         double stateTax =  salary *  stateTaxRate ;
         double federalTax = salary * federalTaxRate;
         double totalTax = stateTax +federalTax;
