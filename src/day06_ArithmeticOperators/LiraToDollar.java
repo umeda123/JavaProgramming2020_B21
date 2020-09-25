@@ -7,7 +7,5 @@ public class LiraToDollar {
 
         System.out.println(lira+" lira equal to $ "+dollar);
 
-
-
     }
 }
