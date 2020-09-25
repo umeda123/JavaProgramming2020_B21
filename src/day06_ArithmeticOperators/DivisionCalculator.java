@@ -14,6 +14,10 @@ public class DivisionCalculator {
 
         System.out.println(num1 + " divide by " + num2 + " is equal to "  + result + " with a remainder of " + remainder);
 
+        System.out.println("=================================================");
+
+       // System.out.println( 9 / 0 );
+
     }
 
 }
