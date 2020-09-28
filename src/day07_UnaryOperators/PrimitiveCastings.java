@@ -37,6 +37,12 @@ public class PrimitiveCastings {
         System.out.println(b1);  // the value 400 is out of Byte' range, and casting does not change the limit of dataType
 
 
+        long l3 = 100;
+        byte b2 = (byte) l3;  // -128 <= byte <= 127
+
+        System.out.println(b2);
+
+
 
     }
 
