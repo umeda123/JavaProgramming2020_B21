@@ -20,9 +20,13 @@ public class OperatorPrecedence {
         System.out.println(y);
         System.out.println(z);
 
-        int w = 78 / 2 * 2 + 3 - 5 % 5;
+        int w = 78 / 2 * 2 + 3 - 5 % 5;  // *, /, %
+            //  39 * 2 + 3 - 5 % 5
+            // 78 + 3 - 5 % 5
+           // 78 + 3 - 0
+          // 81 - 0 = 81
 
-        System.out.println(w);
+        System.out.println(w); // 81
 
         int t = 8 + 2 + 3 + 5 - 2 - 1- 0 + 1 * 2;
         //      8 + 2 + 3 + 5 - 2 - 1 - 0 + 2
