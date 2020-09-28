@@ -68,8 +68,16 @@ public class PostPre {
 
         System.out.println("========================================");
 
-        int R = 20; //R=
+        int R = 20; //R=18
         int W = -R-- + -R++ + --R * R-- % 2;
+        //  W = -20 + -19  +  19  * 19 % 2
+        // W =-20 + -19  + 361 % 2
+        // W = -20 + -19 + 1
+        // W = -39 + 1
+        // W = -38
+
+        System.out.println(W);
+
 
 
 
