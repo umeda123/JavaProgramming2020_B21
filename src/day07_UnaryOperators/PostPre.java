@@ -78,6 +78,23 @@ public class PostPre {
 
         System.out.println(W);
 
+        System.out.println("=============================================");
+
+        int M = 300; // M = 300
+        int N = 400; // N = 400
+
+        int U = ++M + N++ - M-- % 2 + --N % 2;
+        // U = 301 + 400 -  301 % 2 + 400 % 2
+        //U = 301 + 400 - 1 + 0
+        // U =700
+        System.out.println("U: "+U);
+
+
+        int J = M  +  N  -  M * N + M / N;
+        // J = 300 + 400 -  300 * 400 + 300 / 400
+
+        System.out.println(J);
+
 
 
 
