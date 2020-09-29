@@ -11,7 +11,7 @@ public class GallonsToLiters {
         System.out.println(gallons + " gallons equal to "+result+" liters");
         */
 
-        int liters =  (int)(gallons * 3.785);
+        int liters =  (int) (gallons * 3.785);
 
         System.out.println(gallons + " gallons equal to "+  liters +" liters");
 
