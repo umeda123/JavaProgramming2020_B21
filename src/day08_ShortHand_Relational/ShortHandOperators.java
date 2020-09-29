@@ -70,6 +70,21 @@ public class ShortHandOperators {
         System.out.println(bonus);
 
 
+        int y3 = 10;
+            y3 /= 5;
+
+        System.out.println(y3);
+
+        int house = 500000;
+        int month = 240;
+
+        double monthlyPayment = 500000;
+            monthlyPayment /= 240;
+
+        System.out.println(monthlyPayment);
+
+
+
 
 
 
