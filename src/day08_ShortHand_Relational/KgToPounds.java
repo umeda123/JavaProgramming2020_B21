@@ -7,7 +7,7 @@ public class KgToPounds {
 
         int pounds = (int) (kg * 2.20462);
 
-        System.out.println(kg +" kg equal to " + pounds + " pounds");
+        System.out.println( kg +" kg equal to " + pounds + " pounds");
 
     }
 
