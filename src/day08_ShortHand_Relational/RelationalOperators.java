@@ -58,6 +58,8 @@ public class RelationalOperators {
 
         boolean isOdd = x % 2 != 0; // opposite of even
 
+       // System.out.println( "10" > 9);
+
 
 
 
