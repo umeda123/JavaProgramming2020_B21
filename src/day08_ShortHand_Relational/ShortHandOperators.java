@@ -78,8 +78,8 @@ public class ShortHandOperators {
         int house = 500000;
         int month = 240;
 
-        double monthlyPayment = 500000;
-            monthlyPayment /= 240;
+        double monthlyPayment = house;
+            monthlyPayment /= 240;  // monthlyPayment = 500000 / 240
 
         System.out.println(monthlyPayment);
 
