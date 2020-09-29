@@ -85,7 +85,11 @@ public class ShortHandOperators {
      //   System.out.println(monthlyPayment);
 
 
+        // 100 / 3;  ===> 33.33333 ==> remainder: 1
+        int a2 = 100;
+            a2 %= 3;  // a2 = 100 % 3;
 
+        System.out.println(a2);
 
 
 
