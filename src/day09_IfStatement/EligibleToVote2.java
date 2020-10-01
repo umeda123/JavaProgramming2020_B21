@@ -16,13 +16,15 @@ public class EligibleToVote2 {
         System.out.println(name+" is eligible to vote: "+isEligible);
 
         String name2 = "John";
-        String c1 = "Canada";
-        String c2 = "USA";
+        String c1 = "China";
+        String c2 = "Canada";
 
         boolean eligible =  c1 == "USA"   ||   c2 == "USA";
-        //                 "Canada" == "USA"  ||  "USA" == "USA"
-        //                  false || true
-        // true
+        //                 "China" == "USA" || "Canada" == "USA"
+        //                      false || false
+        //                      false
+
+
 
         System.out.println(name2+" is eligible to vote: "+eligible);
 
