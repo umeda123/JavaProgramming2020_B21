@@ -23,7 +23,7 @@ public class IfStatementPractice {
         int age = 20;
         boolean isUSCitizen = false;
 
-        boolean eligible =  isUSCitizen && age >= 18;
+        boolean eligible =  isUSCitizen && age >= 18 && age <= 70 ;
         //                    false && true ==> false
 
         if(eligible){
