@@ -33,9 +33,32 @@ public class Relational {
         System.out.println(a1 == a2); // false
 
         System.out.println( a2 == a3 ); // true
+        //                  30  == 30
 
         char ch1 = '!';
         char ch2 = '!';
+
+        System.out.println(ch1 == ch2); // true
+
+        String language1 = "Turkish";
+        String language2 = "Indian";
+        String language3 = "turkish";
+
+        System.out.println( language1 == language2); // false
+        System.out.println(language1 == language3); // false
+
+        System.out.println("Russian" == "English"); // false
+
+
+    // !=
+        System.out.println("Russian Language" == "Japense Language"); // false
+        System.out.println("Russian Language" != "Japense Language"); // true
+
+        System.out.println(20 != 20); // false
+
+        System.out.println( 'a' != 'A'); // true
+
+
 
 
 
