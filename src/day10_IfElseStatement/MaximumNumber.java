@@ -15,6 +15,7 @@ public class MaximumNumber {
         boolean n3IsMax =  !n1IsMax && !n2IsMax;
                 //  n3 > n2 && n3 > n1;
 
+
         String str = " is maximum number";
 
         if(n1IsMax){
