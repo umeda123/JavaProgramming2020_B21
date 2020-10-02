@@ -43,6 +43,8 @@ public class Logical {
 
         // !: returns the opposite of the boolean
 
+        System.out.println( !true ); // false
+        System.out.println(!false); // true
 
 
 
