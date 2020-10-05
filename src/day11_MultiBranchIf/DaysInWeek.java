@@ -3,7 +3,7 @@ package day11_MultiBranchIf;
 public class DaysInWeek {
 
     public static void main(String[] args) {
-        int number = 6; // 1 ~7
+        int number = 6; // 1 ~ 7
         String day = "";
 
         if( number == 1){
@@ -18,7 +18,7 @@ public class DaysInWeek {
             day = "Friday";
         }else if(number == 6){
             day = "Saturday";
-        }else {
+        }else  {
             day = "Sunday";
         }
 
