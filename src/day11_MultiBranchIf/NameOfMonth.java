@@ -47,5 +47,7 @@ NameOfMonth
  		number = 1  // 1 ~ 12
 
  		output:
- 			January
+ 			January\
+
+ 		Must use ternary
  */
