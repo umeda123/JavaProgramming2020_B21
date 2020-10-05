@@ -52,7 +52,8 @@ public class TernaryPractice {
         System.out.println(s1);
 
 
-        String s2 =  ?
+        String s2 =  (number>0) ? "Positive" :(number < 0)? "Negative" : "Zero";
+        System.out.println(s2);
 
 
 
