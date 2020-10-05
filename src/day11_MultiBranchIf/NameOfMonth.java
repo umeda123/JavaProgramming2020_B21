@@ -3,7 +3,7 @@ package day11_MultiBranchIf;
 public class NameOfMonth {
 
     public static void main(String[] args) {
-        int number = 6;
+        int number = 12;
         String month = "";
 
         if(number == 1){
