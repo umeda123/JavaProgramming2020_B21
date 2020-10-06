@@ -5,7 +5,7 @@ public class EligibleToVote {
     public static void main(String[] args) {
 
         String citizen = "USA";
-        int age = 20;
+        int age = 40;
 
         if(citizen == "USA"){
 
