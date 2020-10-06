@@ -1,15 +1,29 @@
 package day12_NestedIf;
 
 public class EqualityOfNumbers {
+    /*
+        a, b , c
+        a == b
+        b == c
+        a == c
+
+     */
 
     public static void main(String[] args) {
-        int n1 = 100;
-        int n2 = 200;
-        int n3 = 100;
+        int n1 = 400;
+        int n2 = 600;
+        int n3 = 700;
+
+        // for n1 & n2 are equal=   n1 == n2 && n1 != n3
+        // for n2 & n3 are equal=   n2==n3 && n2 != n1
+        // for n1 & n3 are equal=   n1==n3 && n1 != n2
+        // for all equal=           n1 == n2 && n2 == n3
+
+        // none of them are equal=  n1 != n2 && n2 != n3 && n1 != n3
 
         String result = "";
 
-        if(n1 == n2 && n2 == n3){ // becomes if not all of them are equal
+        if(n1 == n2 && n2 == n3 ){ // becomes if not all of them are equal
            result = "all equal";
 
         }else if(n1 == n2 ){ // if not all of them are equal but n1 & n2 equal
@@ -24,6 +38,8 @@ public class EqualityOfNumbers {
         }else{
             result = "none of them are equal";
         }
+
+        System.out.println(result);
 
 
 
