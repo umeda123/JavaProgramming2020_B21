@@ -41,7 +41,10 @@ public class EqualityOfNumbers {
 
         System.out.println(result);
 
+        String result2 = (n1 == n2 && n2 == n3 ) ? "all equal" :(n1 == n2 ) ? "n1&n2 are equal"
+                         : (n2 == n3) ? "n2&n3 are equal" :(n1 == n3) ? "n1&n3 are equal" : "none of them are equal";
 
+        System.out.println(result2);
 
     }
 
