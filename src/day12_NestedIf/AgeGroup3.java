@@ -5,6 +5,7 @@ public class AgeGroup3 {
         int age = 99;
         String ageGroups = "";
 
+        /*
         if(age >= 1 && age <= 2){ // it becomes false when age  >= 3
             ageGroups = "infant";
         }else if(age <= 5){ //  becomes false when age >= 6
@@ -32,6 +33,8 @@ public class AgeGroup3 {
         }else{
             ageGroups = "Old Senior Citizen";
         }
+
+         */
 
         System.out.println(ageGroups);
 
