@@ -12,7 +12,5 @@ public class AgeGroup3 {
 
         System.out.println(ageGroups);
 
-
-
     }
 }
