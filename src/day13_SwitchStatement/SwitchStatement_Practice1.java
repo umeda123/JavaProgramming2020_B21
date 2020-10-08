@@ -5,7 +5,6 @@ public class SwitchStatement_Practice1 {
     public static void main(String[] args) {
 
         int n = 5;
-        String day = "";
 
         switch (n){
             case 1: System.out.println("Monday");
