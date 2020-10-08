@@ -6,7 +6,6 @@ public class DaysInMonth {
         int year = 2021;
         int month = 25; // 1 ~ 12
 
-        boolean has28Or29Days = month == 2;
         boolean has30Days = month == 4 || month == 6 || month == 9 || month == 11;
         //   boolean has31Days = !has28Or29Days || !has30Days;
 
@@ -14,7 +13,7 @@ public class DaysInMonth {
 
         if (month > 0 && month < 13) { // 1 ~ 12, if the mopnth is valid
 
-            if (has28Or29Days) { // for Feb
+            if (month == 2) { // for Feb
 
                 if (year % 4 == 0) { // leap year
                     result = "29 days";
