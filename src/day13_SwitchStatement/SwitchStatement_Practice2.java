@@ -4,7 +4,7 @@ public class SwitchStatement_Practice2 {
 
     public static void main(String[] args) {
 
-        int n = 5;
+        int n = 15;
         String day = "";
 
         switch (n) {
@@ -41,6 +41,10 @@ public class SwitchStatement_Practice2 {
                 break;
 
         }
+
+        System.out.println(day);
+
+
 
 
     }
