@@ -4,23 +4,25 @@ public class SwitchStatement {
 
     public static void main(String[] args) {
 
-        switch(2){
+        switch(1){
+
             case 1:
                 System.out.println("One");
-                    break;
+                break;
 
             case 2:
                 System.out.println("Two");
-                    break;
+                break;
 
             case 3:
                 System.out.println("Three");
-                    break;
+                break;
 
             default:
                 System.out.println("Invalid Case");
-                    break;
+
         }
+
 
 
 
