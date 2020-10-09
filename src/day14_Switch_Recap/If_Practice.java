@@ -57,7 +57,15 @@ public class If_Practice {
 
                 // without curly braces the block can contain one statement ONLY
 
+        int Age =35;
 
+        if(Age < 21){
+            System.out.println("Teenager");
+        }else if(Age>= 21 && Age <= 55){
+            System.out.println("Adult");
+        }else {
+            System.out.println("Senior");
+        }
 
 
 
