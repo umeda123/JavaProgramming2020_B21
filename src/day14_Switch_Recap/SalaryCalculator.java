@@ -14,6 +14,7 @@ public class SalaryCalculator {
             if (weeklyHours > 1 && weeklyHours <= 65) {
 
                 if (numberOfWeeks > 1 && numberOfWeeks <= 52) {
+
                     salary = hourlyRate * weeklyHours * numberOfWeeks;
                     System.out.println("Your salary is: " + salary);
 
