@@ -12,12 +12,20 @@ public class QualificationForArmy {
 
         int age = 18;
 
+        int numberOfDependants = 3;
+
         if( citizen == "USA" || isResident || isAlien ){
 
             if(age >= 17 && age <= 34){
 
                 if(hasHighSchoolDiploma){
-                    System.out.println("You are qualified for the US Army");
+
+                    if( numberOfDependants<= 2) {
+                        System.out.println("You are qualified for the US Army");
+                    }else{
+                        System.err.println("You must have no more than two dependents.");
+                    }
+
                 }else{
                     System.err.println("You must have a high school diploma");
                 }
