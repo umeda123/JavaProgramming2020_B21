@@ -67,7 +67,24 @@ public class If_Practice {
             System.out.println("Senior");
         }
 
+        System.out.println("====================================================");
+        // nested if: precondition
 
+        int AGE = -2;
+
+        if( AGE >= 1 && AGE <= 150 ){
+
+            if(AGE < 21){
+                System.out.println("Teenager");
+            }else if(AGE >= 21 && AGE <=55 ){
+                System.out.println("Adult");
+            }else{
+                System.out.println("Senior");
+            }
+
+        }else {
+            System.out.println("Invalid Age");
+        }
 
 
 
