@@ -4,15 +4,15 @@ public class QualificationForArmy {
 
     public static void main(String[] args) {
 
-        String citizen = "Canada";
-        boolean isResident = false;
-        boolean isAlien = true;
+        String citizen = "Turkey";
+        boolean isResident = true;
+        boolean isAlien = false;
 
         boolean hasHighSchoolDiploma = true;
 
         int age = 18;
 
-        if(citizen == "USA" || isResident || isAlien){
+        if( citizen == "USA" || isResident || isAlien ){
 
             if(age >= 17 && age <= 34){
 
