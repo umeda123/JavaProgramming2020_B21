@@ -4,12 +4,11 @@ public class DaysInMonth {
 
     public static void main(String[] args) {
         int year = 2020;
-        String month = "Jan";
+        String month = "Aug";
 
         String result = "";
 
         switch (month){
-
             case "Jan": result = "31 days";
                         break;
 
@@ -46,7 +45,11 @@ public class DaysInMonth {
             case "Dec": result = "31 days";
                         break;
 
+            default: result = "Invalid";  // last block does not need break statement
+
         }
+
+        System.out.println(result);
 
 
 
