@@ -30,6 +30,36 @@ public class If_Practice {
             System.out.println("You did not pass the class");
         }
 
+        System.out.println("========================================");
+    // else if: 3 or more options
+
+        int n1 = 100;
+        int n2 = 200;
+
+        if(n1 > n2){
+            System.out.println(n1 + " is greater than " + n2 );
+        }else if(n2 > n1){
+            System.out.println(n2+" is greater than "+n1);
+        }else { //n1 == n2
+            System.out.println(n1+" is equal to "+n2);
+        }
+
+
+        int num = 4; // 1 ~ 7
+
+        if(num == 1)  System.out.println("Today is Monday");
+        else if(num == 2) System.out.println("Today is Tuesday");
+        else if(num == 3) System.out.println("Today is Wednesday");
+        else if(num == 4) System.out.println("Today is Thursday");
+        else if(num == 5) System.out.println("Today is Fun day");
+        else if(num == 6) System.out.println("Today is Saturday");
+        else System.out.println("Today is Sunday");
+
+                // without curly braces the block can contain one statement ONLY
+
+
+
+
 
 
 
